@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TP1_Cliente - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\poddo\CONFIG~1\Temp\RSP1F8.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/TP1_Cliente.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Archivos de programa\Microsoft Visual Studio\MyProjects\TP1_Cliente\Source\client_mainCliente.cpp"
+"C:\Archivos de programa\Microsoft Visual Studio\MyProjects\TP1_Cliente\Source\common_Cliente.cpp"
+"C:\Archivos de programa\Microsoft Visual Studio\MyProjects\TP1_Cliente\Source\common_Mensajes.cpp"
+"C:\Archivos de programa\Microsoft Visual Studio\MyProjects\TP1_Cliente\Source\common_Socket.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\poddo\CONFIG~1\Temp\RSP1F8.tmp" 
+Creating temporary file "C:\DOCUME~1\poddo\CONFIG~1\Temp\RSP1F9.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  ws2_32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/TP1_Cliente.pdb" /debug /machine:I386 /out:"Debug/TP1_Cliente.exe" /pdbtype:sept 
+".\Debug\client_mainCliente.obj"
+".\Debug\common_Cliente.obj"
+".\Debug\common_Mensajes.obj"
+".\Debug\common_Socket.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\poddo\CONFIG~1\Temp\RSP1F9.tmp"
+<h3>Output Window</h3>
+Compiling...
+client_mainCliente.cpp
+common_Cliente.cpp
+common_Mensajes.cpp
+common_Socket.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+TP1_Cliente.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
